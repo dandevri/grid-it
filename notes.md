@@ -35,3 +35,30 @@ If you add more items then let's say column browser will make implicit. So the s
 Grid auto rows; implicit created styling.
 
 If you define columns, any extra will be turned into rows.
+
+## 06 Grid Auto Flow
+If items are added as columnns or as rows. What do we do with the extra item?
+Row is default.
+
+## 07 Sizing Tracks
+Relates to box model. Percentage wil not include the grid gap.
+Fractional unit; amount of space left when all elements are layed out. 
+A bit like flex grow and shrink. fr = FRee space
+
+Height of the element is a big as the content. So fr in rows don't work. Width is as viewport (block).
+Auto = max size of content. Widthest content of width column.
+
+## 08 Grid Repeat
+How many you times you want to repeat it and what you want to repeat.
+Multiple arguments it will alternate.
+
+## 09 Sizing Grid Items
+All previous stuff have been on the grid container.
+
+Will lock the width of that column and that with fr will take up the free space.
+Not width and content size but you can use spanning.
+
+## 10 Placing Grid Items
+Span and grid column; where to start and where to end.
+* Column goes to full width
+* Rows -1 goes to explicit width not bottom of grid.
