@@ -62,3 +62,30 @@ Not width and content size but you can use spanning.
 Span and grid column; where to start and where to end.
 * Column goes to full width
 * Rows -1 goes to explicit width not bottom of grid.
+
+## 11 
+-
+
+## 12 Auto Fit and Fill
+Most used pieces of grid.
+Auto-fill; figure out how many columns you need.
+Auto-fit; grid stops at items. (explicit)
+
+Difference is when you don't have enough items. With fill it wil create new columns.
+
+## 13 Min Max
+Mostly used with auto fit and fill. Will replace media queries.
+Flow as wide as need to be. Minimum and maximum of the track. (max 1fr)
+Fit-content function; gets a max width or height.
+
+## 14 Template Areas
+Other way of sizing and place grid items. Explicit say where you want to items to be. You name sections of the grid and place.
+Also use them in media queries to resize.
+Naming them is pretty good if you don't know how many numbers your track are going to be.
+
+When you create areas, you get line names.
+Name the areas and tag a start or end to it.
+
+## 15 Naming lines
+The lines are not the columns themselves lines inbetween columns.
+Name them when you define them.
