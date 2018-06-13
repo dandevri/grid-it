@@ -89,3 +89,25 @@ Name the areas and tag a start or end to it.
 ## 15 Naming lines
 The lines are not the columns themselves lines inbetween columns.
 Name them when you define them.
+
+## 16 Auto Flow
+More items that can fit it wil create a implicit row.
+Dense will fill up the space to fit.
+Mostly used when you don't care about the order the items are in.
+Without auto flow dense you have holes.
+
+## 17 Grid Alignment
+Even if the site you are building is not grid heavy, grid can be really helpful for placing and alignment. (one column)
+justify-* is row axis
+align-* is column axis
+
+Unlike flexbox they don't flip.
+
+## 18 Ordering
+Default order is zero. Order will mess with a11y or text selection.
+
+## 19 Nesting Grid
+Grid item can also be a grid container.
+The grid is bound by resizing the browser.
+
+By using auto-fit and minmax it's behaves a bit like container queries.
