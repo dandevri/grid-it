@@ -25,3 +25,24 @@ Automatically columns instead of rows is auto-flow.
 ## 06 - Grid Autoflow
 Autoflow will determine if you need another row or column.
 Row is default.
+
+## 07 - Sizing
+Percentages won't really work, because them grid gap is counted with them.
+Fr = fractional unit. Amount of space left if all of them are lay-out.
+If you use px you won't really use all of the available grid space.
+Fr is a bit like flex grow.
+Height of the grid is just the height of the content. Width is the viewport.
+Auto = content.
+
+## 08 - Repeat
+Alternate.
+
+## 09 - Sizing Items
+fr = free space 
+Spanning; explicitly tell some items to span multiple columns.
+More on how large and small an item should be, not how it should place itself.
+
+## 10 - Placing items
+Grid-column is actually a short hand.
+
+## 11 - Spanning and Placing cardio
