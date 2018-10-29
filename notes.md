@@ -46,3 +46,20 @@ More on how large and small an item should be, not how it should place itself.
 Grid-column is actually a short hand.
 
 ## 11 - Spanning and Placing cardio
+-
+
+## 12 - auto-fit and auto-fill
+You don't tell auto-fill how many columns you want, just say figure it out.
+auto-fit: explicit grids stops at the items.
+
+## 13 - Minmax
+combination of auto-fill and minmax can replace a lot of media queries.
+
+## 14 - Grid Template Areas
+Visual ascii kind of lay-out.
+
+## 15 - Naming Lines
+Name track lines with square brackets.
+
+## 16 - Auto Flow
+6 spots needed but only 5 left? Grid will layout with a gap. It doesn't really fit these spots.
