@@ -63,3 +63,22 @@ Name track lines with square brackets.
 
 ## 16 - Auto Flow
 6 spots needed but only 5 left? Grid will layout with a gap. It doesn't really fit these spots.
+
+## 17 - Grid Alignment
+justify-* is row axis
+align-* is column axis
+
+Container is wider then it should be, you can use justify content.
+
+Sctretch is default.
+
+align-self on a case by case basis. Only for one specific item.
+No justify-self in flexbox.
+
+## 18 - Re ordering
+Default order of everything is 0.
+Screen reader mixes this up. Selection won't work properly.
+
+## 19 - Nesting
+With CSS grid you will have less wrapper components.
+Grid item can also be container.
