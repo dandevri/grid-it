@@ -82,3 +82,5 @@ Screen reader mixes this up. Selection won't work properly.
 ## 19 - Nesting
 With CSS grid you will have less wrapper components.
 Grid item can also be container.
+
+## 20 - Image Gallery
