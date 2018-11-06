@@ -84,3 +84,21 @@ With CSS grid you will have less wrapper components.
 Grid item can also be container.
 
 ## 20 - Image Gallery
+-
+
+## 21 - Flexbox vs Grid
+Grid can do everything that flexbox can do.
+Flexbox = one dimensional
+Grid = multi dimensional
+
+Flexbox can be transitioned. Can't do that for grid.
+Flip it example, add class
+
+Grid template shorthand. grid-template
+
+
+## 22 - Codepen
+-
+
+## 23 - Bootstrap Grid
+Embrace the flex. Or rigid grid system.
