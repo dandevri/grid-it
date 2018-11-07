@@ -102,3 +102,12 @@ Grid template shorthand. grid-template
 
 ## 23 - Bootstrap Grid
 Embrace the flex. Or rigid grid system.
+
+## 24 - Responsive
+When you want somethinng aligned in the center but keep the width of the content. Flexbox is a better case.
+
+You can also display grid the wrapper and use gap for margins. You can then also use the order property.
+Before and after are also grid items;
+
+## 25 - Blog
+
