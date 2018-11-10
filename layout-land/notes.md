@@ -12,3 +12,28 @@ Bottom is basically the 'fourth edge'. Viewport units make sure you can design f
 Viewport is basically a box.
 
 `max content` large as possibly but no larger then the content.
+
+## 3. Responsive Mondrian
+Peter Mondrian; get rid of ornaments, but still symmetrical.
+auto-fit; browser decides the amount of tracks
+Automatically one cell if you don't tell an item how bit it should be
+Auto-flow dense; not in source order.
+
+## 4. Internet Explorer + CSS Grid????
+non-grid supported browsers, just one single column? Progressive enhancement.
+Feature query; supports display grid
+
+## 5. Flexbox vs. CSS Grid — Which is Better?
+Does this replace flexbox? No, mix grid with flexbox etc.
+* Flexbox lines up in one direction wrap etc. Flexbox only row.
+* Grid two directions, thinks about both of them
+
+Grid can overlap items, with flexbox you can not.
+
+## 6. Innovative & Practical Graphic Design with CSS Grid
+Simple layout for browsers that don't support grid, and then use supports to enhance.
+
+## 7. CSS Grid like you are Jan Tschichold
+You can transform on a whole grid to get some really interestinng layouts.
+You can't style the grid, so you have to place an element on the grid and style that.
+Transforms don't alter the painting. Writing-mode takes up space.
