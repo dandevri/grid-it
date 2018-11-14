@@ -87,3 +87,44 @@ when no CSS is applied.
 Put something on the bottom in the source order but visually on the top of the page. So screen readers
 get to the content first.
 
+## Introduction to Resilient CSS – 1/7
+New css that changes the way we do layout on the web.
+Work with new features even if isn't fully supported. 
+**Doesn't work matrix.**
+The web doesn't work like a OS, you don't need a minimum software requirement. < progessive enhancement
+Reader modes etc. Good HTML. 
+It's ok to make the different experiences for different devices. 
+
+## The Secrets of ‘Can I Use’ – 2/7 Resilient CSS
+What browsers support which properties and values.
+* CanIuse It's rare something is 100% 65% doesn't mean your users have it, only all users.
+Use the settings to tailor them. Google Analytics with canIuse. Statscounter.
+Also look at MDN web docs, they are more specific with values.
+
+## How Browsers Handle Errors in CSS – 3/7 Resilient CSS
+CSS is skipped, no errors. Browser ignores.
+Every broweser renders fonts differently.
+Functional languages and errors out. 
+HTML / CSS are declarative. Makes them very robust.
+
+## Unlocking the Power of CSS Overrides – 4/7 Resilient CSS
+Ignoring is fine but sometimes you want to make adjustments for other browsers.
+CSS overrides; will run the second line. The later line.
+`margin auto` if you use display flex.
+There is no need to keep other browsers hostage to wait for support in an older browser.
+
+## The Magic of Feature Queries, Part 1 – 5/7 Resilient CSS
+@supports; it's a conditional. Property values in conditional. You can use or statement.  
+Figure out your source order first. You can test that with disabling the css. Strip the CSS.
+What if google home, alexa whatever is going to read webpages, you want your HTML to be right.
+
+## The Magic of Feature Queries, Part 2 – 6/7 Resilient CSS
+Not syntax. Write code that's going to be used in all the browser and then the feature query.
+Not all browsers understand feature queries. They will reject all the code.
+
+## Making Your CSS Fail Excellently – 7/7 Resilient CSS
+* Overrides
+* Feature queries
+
+But, how well does it fail? Don't use the property that all.
+Or use another set of properties that achieve the same effect.
