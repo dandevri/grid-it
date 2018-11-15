@@ -128,3 +128,31 @@ Not all browsers understand feature queries. They will reject all the code.
 
 But, how well does it fail? Don't use the property that all.
 Or use another set of properties that achieve the same effect.
+
+## Use Clip Path to Vary Your Designs on the Web
+Websites are basically boxes, but in print design there are more shapes.
+You can use clip path, images inside shapes.
+
+## Overlap on the Web, Graphic Design Made Easy with CSS Grid
+Grid lets us do layouts that overlap. Position absolute was the previous method, but that doesn't
+take up any space in the flow of the document.
+Place items inside the grid in the same area as others.
+
+## Drop Caps on the Web Using Initial Letter
+Catch people's eye to easily spot where text starts. We mostly use them for decoration on the web.
+Not only for decoration but also to guide the user.
+You want to put it into a feature query.
+
+## Introduction to Viewport Units
+Viewport the edges of the browser window. Or the glass on a smartphone.
+
+## Cropping images with Object Fit
+`object-fit` you want to constrain the aspect ratio. But sort of squishy width.
+
+## Designing for A Viewport
+On the web you have a frame. Poster is a frame but their are buildings around them.
+Why is the static design tooling step necessary? Paper and pencil, sketch out and then go to the browser.
+Plan out the page and then design in the browser. Layout needs to respond to all the 4 sides of the screen.
+Framing; frame of the story. Wide shot, medium shot etc. 
+Everybody tries to cram as much in the viewport, but embrace scrolling.
+
