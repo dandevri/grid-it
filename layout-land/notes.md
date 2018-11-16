@@ -156,3 +156,17 @@ Plan out the page and then design in the browser. Layout needs to respond to all
 Framing; frame of the story. Wide shot, medium shot etc. 
 Everybody tries to cram as much in the viewport, but embrace scrolling.
 
+## Min & Max Content Sizing in CSS Grid — 1/3 Flexibility
+Normally text is going to wrap with a width.
+max-content; stertch out as long as it can be
+min-content; length of longest word
+
+## FR Units in CSS Grid — 2/3 Flexibility
+Fraction, take space and splitting it up with everything that has fr.
+Let the browser do the math, don't use percentages and decimals.
+
+## MinMax in CSS Grid — 3/3 Flexibility
+The way of web design is not 'pixel perfect' that we should measure. What if thing are not ideal?
+
+## Hot metal : Pasteup :: Floats : CSS Grid
+
