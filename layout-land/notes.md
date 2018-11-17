@@ -169,4 +169,35 @@ Let the browser do the math, don't use percentages and decimals.
 The way of web design is not 'pixel perfect' that we should measure. What if thing are not ideal?
 
 ## Hot metal : Pasteup :: Floats : CSS Grid
+-
 
+## CSS Grid Uncollapses Your Margins. What?
+Margin collapsing, margin doesn't get multiplied.
+Sometimes they don't collapse, when you set display grid.
+Grid cell contains the margin box.
+
+## The Firefox Shape Path Editor
+Clip-path, clip the outer edges. 
+CSS shapes affect the flow of content.
+
+## Where is CSS4? When is it coming out?
+CSS2 has selections.
+
+There isn't one CSS3 document. Working group split it up into modules.
+There are different modules for colors, text etc.
+Working draft; most people start working with. Candidate recommendetion, it pretty much done.
+
+## 9 Biggest Mistakes with CSS Grid
+1. Grid doesn't replace flexbox or floats: all have use cases.
+1. Using only percent for sizing: 
+1. Don't need breakpoints: 
+1. Confused by numbering: numbers refers to line not the tracks.
+1. Always using 12 columns: 
+1. Forget about rows: default is auto-height
+1. Reaching for framework: starter-kits but not frameworks.
+1. Waiting for IE11
+1. Don't wait for permission to play or experiment: find an old poster and re-create
+
+## What if CSS Grid Changes?
+Materials, html css etc. > Tools, frameworks
+Time to learn material is more valuable then the time to learn the tool.
