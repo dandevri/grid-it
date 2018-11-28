@@ -16,3 +16,17 @@ Grid defaults to spanning one track
 Gaps only appear between tracks of the grid, they do not add space to the top and bottom, left or right of the container. 
 
 ## Sizing of tracks and Items
+ch = character zero. fr unit. Sizing keywords.
+You can use sizinng keywords such as min-content with CSS grid. `fit-content`
+
+## Alignment of the grid and grid items
+Box alignment specification. 
+* `justify items` Align items inside an area.
+* `justify content` Also justify and align the tracks.
+You can also use space-between etc. 
+
+> These alignment properties that we first met in the flexbox specification have been moved into a new specification called Box Alignment Level 3. This specification has details for how alignment should work in all of the different layout methods.
+
+## How does grid work with Flexbox and other specs?
+
+
